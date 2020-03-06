@@ -53,24 +53,3 @@
 .post ul {
   margin-top: 1.25em;
 }
-
-.post ul li {
-  display: flex;
-  margin-top: 0.625em;
-}
-
-.post ul li p {
-  background-color: #eeeeee;
-  border-radius: 20px;
-  color: #3e3e3e;
-  font-size: 0.8125em;
-  line-height: 1.4em;
-  padding: 0.76923077em 1.15384615em;
-  width: 100%;
-}
-
-.post ul li p span {
-  color: #3e3e3e;
-  font-weight: bold;
-  margin-right: 0.3125em;
-}

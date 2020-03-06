@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 
 import './styles.css';
 
+import Comment from '../Comment';
+
 const Post = ({ data }) => {
   return (
     <li className="post">
@@ -18,15 +20,7 @@ const Post = ({ data }) => {
       </section>
       <ul>
         {data.comments.map(comment => (
-          <li key={comment.id}>
-            <figure>
-              <img src={comment.author.avatar} alt={comment.author.name} />
-            </figure>
-            <p>
-              <span>{comment.author.name}</span>
-              {comment.content}
-            </p>
-          </li>
+          <Comment key={comment.id} data={comment} />
         ))}
       </ul>
     </li>
