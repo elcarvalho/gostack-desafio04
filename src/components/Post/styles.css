@@ -1,0 +1,76 @@
+.post {
+  margin-top: 1.25em;
+  padding: 1.25em;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
+}
+
+.post figure {
+  border-radius: 50%;
+  height: 32px;
+  margin-right: 0.625em;
+  overflow: hidden;
+  width: 32px;
+}
+
+.post figure img {
+  height: 100%;
+  width: 100%;
+}
+
+.post section {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.post section p {
+  color: #3e3e3e;
+  font-size: 0.875em;
+  line-height: 1.4em;
+  margin: 1.42857143em auto;
+  width: 100%;
+}
+
+.post section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post section div span {
+  font-size: 0.875em;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.post section div small {
+  color: #9a9a9a;
+  font-size: 0.6875em;
+}
+
+.post ul {
+  margin-top: 1.25em;
+}
+
+.post ul li {
+  display: flex;
+  margin-top: 0.625em;
+}
+
+.post ul li p {
+  background-color: #eeeeee;
+  border-radius: 20px;
+  color: #3e3e3e;
+  font-size: 0.8125em;
+  line-height: 1.4em;
+  padding: 0.76923077em 1.15384615em;
+  width: 100%;
+}
+
+.post ul li p span {
+  color: #3e3e3e;
+  font-weight: bold;
+  margin-right: 0.3125em;
+}
